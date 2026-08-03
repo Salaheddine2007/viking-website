@@ -191,47 +191,54 @@
       <h2>Filmer &amp; Serier Med Viking IPTV</h2>
       <p>Utforska VOD-biblioteket i Viking IPTV genre för genre – perfekt för både filmkväll och serie-maraton.</p>
     </div>
-    <div class="slider-arrows">
-      <button class="slider-arrow slider-prev" type="button" aria-label="Föregående genrer" data-slider-target="aflam-track">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <button class="slider-arrow slider-next" type="button" aria-label="Fler genrer" data-slider-target="aflam-track">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
-    </div>
-    <div class="vod-slider-wrap">
-      <div class="vod-track" id="aflam-track">
-        <div class="vod-card" style="background-image:url('/assets/vod/action-aventyr.jpg')">
-          <div class="vod-overlay"><h3>Action &amp; Äventyr</h3><p>Explosiva actionfilmer och äventyr som håller pulsen uppe.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/nordisk-drama.jpg')">
-          <div class="vod-overlay"><h3>Nordisk Drama</h3><p>Prisbelönta dramaproduktioner och serier med nordisk prägel.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/komedi.jpg')">
-          <div class="vod-overlay"><h3>Komedi</h3><p>Lättsamma komedier som passar en avslappnad filmkväll.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/barn-familj.jpg')">
-          <div class="vod-overlay"><h3>Barn &amp; Familj</h3><p>Mysiga filmkvällar med innehåll för hela familjen.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/dokumentarer.jpg')">
-          <div class="vod-overlay"><h3>Dokumentärer</h3><p>Fördjupande dokumentärer om allt mellan himmel och jord.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/sport-live.jpg')">
-          <div class="vod-overlay"><h3>Sport &amp; Live</h3><p>Sportdokumentärer och höjdpunkter för dig som älskar sport.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/thriller-deckare.jpg')">
-          <div class="vod-overlay"><h3>Thriller &amp; Deckare</h3><p>Spänningsfyllda thrillers och deckargåtor som fångar dig direkt.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/klassiker.jpg')">
-          <div class="vod-overlay"><h3>Klassiker</h3><p>Tidlösa filmklassiker för den nostalgiska filmkvällen.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/scifi-fantasy.jpg')">
-          <div class="vod-overlay"><h3>Sci-Fi &amp; Fantasy</h3><p>Episka världar inom science fiction och fantasy.</p></div>
-        </div>
-        <div class="vod-card" style="background-image:url('/assets/vod/musik-konserter.jpg')">
-          <div class="vod-overlay"><h3>Musik &amp; Konserter</h3><p>Konserter och musikdokumentärer för dig som älskar livemusik.</p></div>
+    <div class="slider-outer">
+      <div class="slider-viewport" id="aflamViewport">
+        <div class="slider-track" id="aflamTrack">
+          <div class="slide">
+            <img src="/assets/vod/action-aventyr.jpg" alt="Action &amp; Äventyr" loading="lazy">
+            <div class="slide-overlay"><h3>Action &amp; Äventyr</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/nordisk-drama.jpg" alt="Nordisk Drama" loading="lazy">
+            <div class="slide-overlay"><h3>Nordisk Drama</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/komedi.jpg" alt="Komedi" loading="lazy">
+            <div class="slide-overlay"><h3>Komedi</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/barn-familj.jpg" alt="Barn &amp; Familj" loading="lazy">
+            <div class="slide-overlay"><h3>Barn &amp; Familj</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/dokumentarer.jpg" alt="Dokumentärer" loading="lazy">
+            <div class="slide-overlay"><h3>Dokumentärer</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/sport-live.jpg" alt="Sport &amp; Live" loading="lazy">
+            <div class="slide-overlay"><h3>Sport &amp; Live</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/thriller-deckare.jpg" alt="Thriller &amp; Deckare" loading="lazy">
+            <div class="slide-overlay"><h3>Thriller &amp; Deckare</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/klassiker.jpg" alt="Klassiker" loading="lazy">
+            <div class="slide-overlay"><h3>Klassiker</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/scifi-fantasy.jpg" alt="Sci-Fi &amp; Fantasy" loading="lazy">
+            <div class="slide-overlay"><h3>Sci-Fi &amp; Fantasy</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
+          <div class="slide">
+            <img src="/assets/vod/musik-konserter.jpg" alt="Musik &amp; Konserter" loading="lazy">
+            <div class="slide-overlay"><h3>Musik &amp; Konserter</h3><span class="slide-badge">4K/HD</span></div>
+          </div>
         </div>
       </div>
+      <button class="slider-btn slider-prev" id="aflamPrev" type="button" aria-label="Föregående genrer">&#8592;</button>
+      <button class="slider-btn slider-next" id="aflamNext" type="button" aria-label="Fler genrer">&#8594;</button>
+      <div class="slider-dots" id="aflamDots"></div>
     </div>
   </div>
 </section>
@@ -1015,13 +1022,138 @@
 </footer>
 <script>
 (function () {
-  var track = document.getElementById('aflam-track');
-  if (!track) return;
-  var prev = document.querySelector('.slider-prev');
-  var next = document.querySelector('.slider-next');
-  function amount() { return Math.max(track.clientWidth * 0.8, 260); }
-  if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -amount(), behavior: 'smooth' }); });
-  if (next) next.addEventListener('click', function () { track.scrollBy({ left: amount(), behavior: 'smooth' }); });
+  var viewport = document.getElementById('aflamViewport');
+  var track = document.getElementById('aflamTrack');
+  var dotsWrap = document.getElementById('aflamDots');
+  var prevBtn = document.getElementById('aflamPrev');
+  var nextBtn = document.getElementById('aflamNext');
+  if (!viewport || !track || !dotsWrap) return;
+
+  var slides = Array.prototype.slice.call(track.children);
+  var total = slides.length;
+  if (!total) return;
+
+  var visible = getVisible();
+  var maxIndex = Math.max(0, total - visible);
+  var index = 0;
+  var autoTimer = null;
+  var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function getVisible() {
+    var w = window.innerWidth;
+    if (w <= 640) return 1;
+    if (w <= 1024) return 2;
+    return 3;
+  }
+
+  function buildDots() {
+    dotsWrap.innerHTML = '';
+    var dotCount = maxIndex + 1;
+    for (var i = 0; i < dotCount; i++) {
+      var dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'slider-dot' + (i === index ? ' active' : '');
+      dot.setAttribute('aria-label', 'Gå till bild ' + (i + 1));
+      (function (n) {
+        dot.addEventListener('click', function () { goTo(n); });
+      })(i);
+      dotsWrap.appendChild(dot);
+    }
+  }
+
+  function updateDots() {
+    var dots = dotsWrap.children;
+    for (var i = 0; i < dots.length; i++) {
+      dots[i].classList.toggle('active', i === index);
+    }
+  }
+
+  function goTo(n) {
+    index = Math.max(0, Math.min(maxIndex, n));
+    var slideWidth = slides[0].getBoundingClientRect().width;
+    var gap = 16;
+    var offset = index * (slideWidth + gap);
+    track.style.transform = 'translateX(-' + offset + 'px)';
+    updateDots();
+  }
+
+  function next() { goTo(index >= maxIndex ? 0 : index + 1); }
+  function prev() { goTo(index <= 0 ? maxIndex : index - 1); }
+
+  function startAuto() {
+    if (reducedMotion) return;
+    stopAuto();
+    autoTimer = setInterval(next, 3800);
+  }
+  function stopAuto() {
+    if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', function () { prev(); });
+  if (nextBtn) nextBtn.addEventListener('click', function () { next(); });
+
+  viewport.addEventListener('mouseenter', stopAuto);
+  viewport.addEventListener('mouseleave', startAuto);
+
+  var dragStartX = 0;
+  var dragging = false;
+  var dragDelta = 0;
+
+  track.addEventListener('pointerdown', function (e) {
+    dragging = true;
+    dragStartX = e.clientX;
+    dragDelta = 0;
+    stopAuto();
+    track.style.transition = 'none';
+    if (track.setPointerCapture) { try { track.setPointerCapture(e.pointerId); } catch (err) {} }
+  });
+
+  track.addEventListener('pointermove', function (e) {
+    if (!dragging) return;
+    dragDelta = e.clientX - dragStartX;
+    var slideWidth = slides[0].getBoundingClientRect().width;
+    var gap = 16;
+    var baseOffset = index * (slideWidth + gap);
+    track.style.transform = 'translateX(' + (-baseOffset + dragDelta) + 'px)';
+  });
+
+  function endDrag() {
+    if (!dragging) return;
+    dragging = false;
+    track.style.transition = '';
+    if (dragDelta > 50) {
+      prev();
+    } else if (dragDelta < -50) {
+      next();
+    } else {
+      goTo(index);
+    }
+    dragDelta = 0;
+    startAuto();
+  }
+
+  track.addEventListener('pointerup', endDrag);
+  track.addEventListener('pointercancel', endDrag);
+  track.addEventListener('pointerleave', function () { if (dragging) endDrag(); });
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function () {
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      var newVisible = getVisible();
+      if (newVisible !== visible) {
+        visible = newVisible;
+        maxIndex = Math.max(0, total - visible);
+        index = Math.min(index, maxIndex);
+        buildDots();
+      }
+      goTo(index);
+    }, 120);
+  });
+
+  buildDots();
+  goTo(0);
+  startAuto();
 })();
 </script>
 <script>
