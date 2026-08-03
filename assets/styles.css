@@ -812,6 +812,78 @@ footer .copyright { text-align: center; }
 }
 .logo-chip svg { width: 18px; height: 18px; color: var(--gold); flex-shrink: 0; }
 
+/* Trust badges strip ----------------------------------------------------------- */
+.trust-badges-strip { padding: 2.25rem 0 0.5rem; }
+.trust-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+}
+.trust-badge-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.35rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  font-weight: 500;
+  box-shadow: var(--shadow-sm);
+}
+.trust-badge-chip svg { width: 18px; height: 18px; color: var(--gold); flex-shrink: 0; }
+
+/* Shared accordion component (device setup guide + FAQ) ------------------------ */
+.accordion {
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+.accordion-item {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.accordion-item h3 { margin: 0; }
+.accordion-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: 1.02rem;
+  font-weight: 600;
+  text-align: left;
+}
+.accordion-trigger .accordion-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: var(--gold);
+  transition: transform var(--transition);
+}
+.accordion-trigger[aria-expanded="true"] .accordion-icon { transform: rotate(180deg); }
+.accordion-panel {
+  padding: 0 1.5rem 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+.accordion-panel[hidden] { display: none; }
+.accordion-panel ol { margin: 0; padding-left: 1.25rem; }
+.accordion-panel ol li { margin-bottom: 0.5rem; }
+.accordion-panel p { margin: 0; }
+
 @media (max-width: 1024px) {
   .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .pricing-card.featured { transform: none; }
