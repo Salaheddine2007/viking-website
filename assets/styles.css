@@ -959,3 +959,19 @@ footer .copyright { text-align: center; }
   .slider-next { right: 8px; }
   .slide-overlay { padding: 1rem 1.25rem; }
 }
+
+.related-guides {
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+}
+.related-guides h2 { margin-top: 0; }
+.related-guides ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
+.related-guides li {
+  padding: 0.75rem 1rem;
+  background: var(--bg-elevated-2);
+  border-left: 3px solid var(--gold);
+  border-radius: 4px;
+}
+.related-guides a { text-decoration: none; font-weight: 600; color: var(--gold); }
+.related-guides a:hover { text-decoration: underline; }
