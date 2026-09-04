@@ -192,15 +192,17 @@
     "keyword": "bästa iptv appen apple tv",
     "volume": null,
     "kd": null,
-    "status": "pending",
-    "trunk": "iptv-smart-player"
+    "status": "skipped_duplicate",
+    "trunk": "iptv-smart-player",
+    "note": "near-duplicate of just-published 'iptv-app-apple-tv' (2026-09-02)"
   },
   {
     "keyword": "iptv apple tv",
     "volume": null,
     "kd": null,
-    "status": "pending",
-    "trunk": "general"
+    "status": "skipped_duplicate",
+    "trunk": "general",
+    "note": "near-duplicate of just-published 'iptv-app-apple-tv' (2026-09-02)"
   },
   {
     "keyword": "best iptv app samsung tv",
@@ -215,8 +217,10 @@
     "keyword": "iptv app android tv",
     "volume": null,
     "kd": null,
-    "status": "pending",
-    "trunk": "iptv-smart-player"
+    "status": "done",
+    "trunk": "iptv-smart-player",
+    "posted_date": "2026-09-04",
+    "url": "https://iptvviking.tv/blog/iptv-app-android-tv/"
   },
   {
     "keyword": "iptv smart tv",
