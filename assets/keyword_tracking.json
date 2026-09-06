@@ -269,8 +269,10 @@
     "keyword": "iptv m3u free",
     "volume": null,
     "kd": null,
-    "status": "pending",
-    "trunk": "apps_players"
+    "status": "done",
+    "trunk": "iptv-m3u-gratis",
+    "posted_date": "2026-09-06",
+    "url": "https://iptvviking.tv/blog/iptv-m3u-gratis/"
   },
   {
     "keyword": "m3u iptv free",
@@ -312,8 +314,9 @@
     "keyword": "gratis iptv m3u",
     "volume": null,
     "kd": null,
-    "status": "pending",
-    "trunk": "apps_players"
+    "status": "skipped_duplicate",
+    "trunk": "iptv-m3u-gratis",
+    "note": "same query as just-published 'iptv m3u free' -> iptv-m3u-gratis (2026-09-06)"
   },
   {
     "keyword": "iptv channels m3u",
